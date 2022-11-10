@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genarator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="hero" >
+            <div id="hero1">
+                Generate a <span id="hero-span-color">random password</span>
+            </div>
+            <div id="hero2">
+                Never use an insecure password again.
+            </div>
+        </div>
+        <div id="password-length-div">
+            Password Length:    
+            <button class="length-btn" onclick="asignLength10()">10</button>
+            <button class="length-btn" onclick="asignLength12()">12</button>
+            <button class="length-btn" onclick="asignLength15()">15</button>
+        </div>
+        <button id="password-btn" onclick="generatePassword()">Generate passwords</button>
+        <div id="line"></div>
+        <div class="password-container">
+            <div class="password-div" id="password-el"></div>
+            <div class="password-div" id="password2-el"></div>
+        </div>
+        <div class="password-container">
+            <div class="password-div" id="password3-el"></div>
+            <div class="password-div" id="password4-el"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

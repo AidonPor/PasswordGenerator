@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    min-height: 90vh;
+    background-color: darkblue;
+}
+
+@font-face {
+    font-family: Hacker;
+    src: url(hackdaddy.regular.otf);
+}
+
+#container{
+    margin: 5% 28% 0% 28%;
+    background-color:#1F2937;
+    color: #ffffff;
+    overflow: auto;
+    width: 45%;
+}
+
+#hero1{
+    font-family: Hacker;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    width: 58%;
+    margin: 15% 30% 3% 10%;
+}
+
+#hero-span-color{
+    color: #4ADF86;
+}
+
+#hero2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #d5d4d8;
+    margin: 0px 20% 5% 10%;
+}
+
+#password-length-div{
+    margin: 7% 30% 7% 10%;
+    width: 48%;
+    color:  #4ADF86;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.length-btn{
+    background-color: #ffffff;
+    color: #10B981;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 8px 8px 8px 8px;
+}
+
+.length-btn:hover{
+    background-color:#d5d4d8;
+}
+
+.length-btn:active{
+    background-color: #f5f0f0;
+}
+
+#password-btn{
+    background-color: #10B981;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0px 30% 5% 10%;
+}
+
+#password-btn:hover{
+    background-color: #4ADF86;
+}
+
+#password-btn:active{
+    background-color: #085c40;
+}
+
+#line{
+    border: solid 1px #2F3E53;
+    width: 80%;
+    margin: 0px auto 7% auto
+}
+
+.password-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.password-div{
+    color: #55F991;
+    background-color: #273549;
+    padding: 8px 8px 8px 8px;
+    border-radius: 6px;
+    width: 30%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
